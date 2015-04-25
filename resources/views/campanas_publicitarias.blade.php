@@ -109,7 +109,7 @@ JQUERY
 <!-- 
 MENU
 -->	
-<?php include('../../menu.html'); ?>
+<?php include('template/menu.html'); ?>
 
     
     
@@ -137,7 +137,7 @@ ABOUT
 <!-- 
 FOOTER
 -->	
-<?php include('../../footer.html'); ?>
+<?php include('template/footer.html'); ?>
 
 
 
