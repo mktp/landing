@@ -1,0 +1,80 @@
+<?php $__env->startSection('content'); ?>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h1>Este es un servicio nuevo</h1>
+
+				<?php echo Form::open(array('route' => 'mktp/contact/save/', 'class' => 'form')); ?>
+
+				
+				<div class="form-group">
+					<?php echo Form::hidden('id', 0); ?>
+
+					<?php echo Form::label('Nombre'); ?>
+
+					<?php echo Form::text('name', null, 
+						array('required', 
+							  'class'=>'form-control', 
+							  'placeholder'=>'Escriba el nombre de cliente')); ?>
+
+					<?php echo Form::label('Email'); ?>
+
+					<?php echo Form::text('email', null, 
+						array('required', 
+							  'class'=>'form-control', 
+							  'placeholder'=>'Escriba su email')); ?>
+
+					<?php echo Form::label('Repetir email'); ?>
+
+					<?php echo Form::text('repeat', null, 
+						array('required', 
+							  'class'=>'form-control', 
+							  'placeholder'=>'Escriba su email otra vez')); ?>
+
+					<?php echo Form::label('Ciudad'); ?>
+
+					<?php echo Form::text('city', null, 
+						array('required', 
+							  'class'=>'form-control', 
+							  'placeholder'=>'Escriba su ciudad')); ?>
+
+					<?php echo Form::label('Compañia'); ?>
+
+					<?php echo Form::text('group', null, 
+						array('required', 
+							  'class'=>'form-control', 
+							  'placeholder'=>'Escriba su compañia y organizacion')); ?>
+
+					<?php echo Form::label('Asunto'); ?>
+
+					<?php echo Form::text('subject', null, 
+						array('required', 
+							  'class'=>'form-control', 
+							  'placeholder'=>'Escriba el asunto')); ?>
+
+					<?php echo Form::label('Mensaje'); ?>
+
+					<?php echo Form::text('text', null, 
+						array('required', 
+							  'class'=>'form-control', 
+							  'placeholder'=>'Escriba el mensaje')); ?>
+
+					
+				</div>
+				
+				<div class="form-group">
+					<?php echo Form::submit('Ingresar', 
+					  array('class'=>'btn btn-primary')); ?>
+
+				</div>
+				<?php echo Form::close(); ?>
+
+
+		</div>
+    </div>
+</div>
+
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

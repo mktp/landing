@@ -1,0 +1,6 @@
+[2015-04-25 00:05:29] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '?>'' in /home/marketingpublico/public_html/mktp/storage/framework/views/15588bd6373152ea8479f967c43620f3:9
+Stack trace:
+#0 {main}  
+[2015-04-25 00:05:52] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '?>'' in /home/marketingpublico/public_html/mktp/storage/framework/views/15588bd6373152ea8479f967c43620f3:9
+Stack trace:
+#0 {main}  
