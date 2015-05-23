@@ -30,6 +30,8 @@ Route::get('diseno-grafico', 'WelcomeController@diseno_grafico');
 Route::get('branding', 'WelcomeController@branding');
 Route::get('estrategia-digital', 'WelcomeController@estrategia_digital');
 Route::get('btl', 'WelcomeController@btl');
+Route::get('call-center', 'WelcomeController@call_center');
+
 Route::get('contact', 'ContactformController@contact');
 Route::get('chart', 'ContactformController@chart');
 

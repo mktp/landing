@@ -124,6 +124,10 @@ ABOUT
                 <div class="span12 texto">
                 	<span style="font-family: 'Questrial', sans-serif, bold;">ESTRATEGIA DIGITAL</span>
 					<p style="">Inicie las conversaciones con sus clientes, posicione su página web con contenido relevante en motores de búsqueda. integre a su cliente en la matriz de su negocio y déjese llevar por un consumidor más digital.</p>
+<p style="">Diagnóstico y auditoria digital</p><br/>
+<p style="">Realización de páginas web </p><br/>
+<p style="">Administración de redes sociales SEO, SEM </p><br/>
+<p style="">Generación de contenido</p><br/>
                 </div>
             </div>
         </div>

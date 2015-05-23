@@ -124,6 +124,10 @@ ABOUT
                 <div class="span12 texto">
                 	<span style="font-family: 'Questrial', sans-serif, bold;">BTL</span>
 					<p style="">Imagínese a sus clientes interactuando con su marca, viviendo experiencias únicas llenas de creatividad y sorpresa en el momento y la hora indicada.</p>
+<p style="">Activaciones</p><br/>
+<p style="">Diseño, montaje, producción</p><br/>
+<p style="">Logística</p><br/>
+
                 </div>
             </div>
         </div>

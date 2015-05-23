@@ -127,6 +127,11 @@ ABOUT
 en sus discursos en cambio los consumidores cada ves se parecen menos. adaptarse o terminar en el recuerdo
 de unos pocos no es el destino que su marca merece.
 </p>
+<p style="">Diagnóstico</p><br/>
+<p style="">Nuevos proyectos</p><br/>
+<p style="">Estudios de experiencia </p><br/>
+<p style="">Manuales de imagen</p><br/>
+
                 </div>
             </div>
         </div>

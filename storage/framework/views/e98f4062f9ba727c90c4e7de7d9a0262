@@ -125,6 +125,11 @@ ABOUT
                 	<span style="font-family: 'Questrial', sans-serif, bold;">DISEÑO GRAFICO</span>
 					<p style="">Diferencie sus productos y servicios deje que su argumento
 Visual hable de sus beneficios.</p>
+<p style="">Imagen corporativa</p><br/>
+<p style="">Diseño de catálogos y demás ayuda ventas </p><br/>
+<p style="">Retoque digital </p><br/>
+<p style="">Publicidad exterior</p><br/>
+
                 </div>
             </div>
         </div>

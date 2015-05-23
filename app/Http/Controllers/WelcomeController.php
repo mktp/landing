@@ -79,6 +79,12 @@ class WelcomeController extends Controller {
 	{
 		return view('btl');
 	}
+
+	public function call_center()
+	{
+		return view('call_center');
+	}
+
 	public function contact()
 	{
 		return view('mktp/new_contactform');

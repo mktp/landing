@@ -124,6 +124,12 @@ ABOUT
                 <div class="span12 texto">
                 	<span style="font-family: 'Questrial', sans-serif, bold;">CAMPAÑAS PUBLICITARIAS</span>
 					<p style="">Ubíquese en el corazón de su consumidor, agregue valor a su oferta comercial y comunique lo mejor de su portafolio.</p>
+
+<p style="">Campañas de expectativa</p><br/>
+<p style="">Campañas de lanzamiento </p><br/>
+<p style="">Campañas de posicionamiento</p><br/>
+<p style="">Campañas de estacionalidad</p><br/>
+
                 </div>
             </div>
         </div>

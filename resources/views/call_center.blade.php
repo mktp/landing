@@ -9,12 +9,7 @@
 <!-- 
 SEO
 -->	
-	<title>Marketing y Estrategia | Es ayuda segmentos de mercado y optimizacion</title>
-    <meta http-equiv="content-language" content="es" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta name="description" content="Convierta las necesidades de sus clientes en deseos solo necesita identificar muy bien la esencia
-de su negocio." />
-	<meta name="keywords" content="marketing,estrategia,digital,pymes,empresas,profesionales,bogota,cali,medellin,colombia,comunicacion,posicionamiento" />
+	<title>Marketing Publico | De la idea a la acción</title>
 
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -79,11 +74,7 @@ de su negocio." />
 }
 .bs-example{
 	margin: 7px;
-} 
-p.seo{
-	margin: 7px;
-	color: white;
-}
+}  
 </style>
 </head>
 <body>
@@ -118,7 +109,7 @@ JQUERY
 <!-- 
 MENU
 -->	
-<?php include('template/menu.html'); ?>
+<?php include('../../menu.html'); ?>
 
     
     
@@ -131,14 +122,11 @@ ABOUT
         <div class="container">
             <div class="row-fluid">
                 <div class="span12 texto">
-                	<span style="font-family: 'Questrial', sans-serif, bold;">MARKETING Y ESTRATEGIA</span>
-					<p style="">Convierta las necesidades de sus clientes en deseos solo necesita identificar muy bien la esencia
-de su negocio, localizar nuevos nichos de mercado, identificar segmentos de mercado potenciales, valorar el potencial e interés de esos mercados, orientar a la empresa
-en busca de esas oportunidades y diseñar un plan de actuación u hoja de ruta que consiga los objetivos buscados.</p><br/>
-
-<p style="">Auditoria en marketing y comunicaciones</p><br/>
-<p style="">Diagnósticos de mercado</p><br/>
-<p style="">Estudios de mercado y posicionamiento</p><br/>
+                	<span style="font-family: 'Questrial', sans-serif, bold;">CALL CENTER</span>
+					<p style="">Muy pronto todo acerca de nuestro servicio de Call Center.</p>
+<p style=""></p><br/>
+<p style=""></p><br/>
+<p style=""></p><br/>
 
                 </div>
             </div>
@@ -149,23 +137,11 @@ en busca de esas oportunidades y diseñar un plan de actuación u hoja de ruta
 
 
 
-<!-- 
-SEO
--->	
-<div>
-	<p class="seo">marketing y estrategia para pymes</p>
-	<p class="seo">marketing y estrategia para bogota</p>
-	<p class="seo">marketing y estrategia para comunicacion</p>
-</div>
-
-
-
-
 
 <!-- 
 FOOTER
 -->	
-<?php include('template/footer.html'); ?>
+<?php include('../../footer.html'); ?>
 
 
 
