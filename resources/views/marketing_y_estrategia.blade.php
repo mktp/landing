@@ -9,7 +9,7 @@
 <!-- 
 SEO
 -->	
-	<title>Marketing y Estrategia | Es la ayuda segmentos de mercado y optimizacion</title>
+	<title>Marketing y Estrategia | Ayuda a segmentos de mercado y optimizacion</title>
     <meta http-equiv="content-language" content="es" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="description" content="Convierta las necesidades de sus clientes en deseos solo necesita identificar muy bien la esencia
