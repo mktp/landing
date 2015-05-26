@@ -1,4 +1,4 @@
-
+﻿
 <!DOCTYPE html>
 <html lang="en">
 
@@ -183,8 +183,7 @@ ABOUT
             <div class="row-fluid">
                 <div class="span12 texto">
                 	<span style="font-family: 'Questrial', sans-serif, bold;">PERFIL</span>
-					<h1 style="">Marketing Público, es una Agencia con una fuerte orientación de ejecución
-al Marketing de contenidos.</h1>
+					<h1 style="">Marketing Publico, esta ensayando su pagina de prueba</h1>
                 </div>
             </div>
         </div>
