@@ -183,7 +183,7 @@ ABOUT
             <div class="row-fluid">
                 <div class="span12 texto">
                 	<span style="font-family: 'Questrial', sans-serif, bold;">PERFIL</span>
-					<h1 style="">Marketing Publico, esta ensayando su pagina de prueba de gianpiero a produccion</h1>
+					<h1 style="">Marketing Publico, esta ensayando su pagina de prueba de gianpiero a produccion y ahora hacia gianpiero</h1>
                 </div>
             </div>
         </div>
