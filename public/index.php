@@ -1,4 +1,17 @@
 <?php
+
+/*
+|--------------------------------------------------------------------------
+| Wordpress
+|--------------------------------------------------------------------------
+|
+| Integrate Wordpress with Laravel core
+|
+*/
+
+define('WP_USE_THEMES', false);
+require __DIR__.'/../../blog/wp-blog-header.php';
+
 /**
  * Laravel - A PHP Framework For Web Artisans
  *
