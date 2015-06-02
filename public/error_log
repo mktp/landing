@@ -30,3 +30,8 @@
 [24-Apr-2015 23:50:22 UTC] PHP Fatal error:  Class 'Mail' not found in /home/marketingpublico/public_html/mktp/public/getData.php on line 14
 [25-Apr-2015 00:05:29 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/marketingpublico/public_html/mktp/storage/framework/views/15588bd6373152ea8479f967c43620f3 on line 9
 [25-Apr-2015 00:05:52 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/marketingpublico/public_html/mktp/storage/framework/views/15588bd6373152ea8479f967c43620f3 on line 9
+[27-May-2015 21:57:42 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Post' not found in /home/marketingpublico/public_html/mktp/app/Http/Controllers/WelcomeController.php on line 46
+[27-May-2015 22:03:53 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Corcel\Database' not found in /home/marketingpublico/public_html/mktp/app/Http/Controllers/WelcomeController.php on line 52
+[27-May-2015 22:03:56 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Corcel\Database' not found in /home/marketingpublico/public_html/mktp/app/Http/Controllers/WelcomeController.php on line 52
+[27-May-2015 22:05:35 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Post' not found in /home/marketingpublico/public_html/mktp/app/Http/Controllers/WelcomeController.php on line 53
+[27-May-2015 22:05:37 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Post' not found in /home/marketingpublico/public_html/mktp/app/Http/Controllers/WelcomeController.php on line 53

@@ -4,8 +4,6 @@
 
 <head>
 
-
-
 <!-- 
 META
 -->
@@ -100,6 +98,7 @@ SEO
 .bs-example{
 	margin: 7px;
 }  
+
 </style>
 </head>
 <body>
@@ -111,10 +110,12 @@ SEO
 <!-- 
 BOOTSTRAP
 -->	
-	<link rel="stylesheet" href="http://www.projectrevista.com/api/bootstrap/css/bootstrap.css">
-	<link rel="stylesheet" href="http://www.projectrevista.com/api/bootstrap/css/bootstrap-responsive.css">
-	<link rel="stylesheet" href="http://www.projectrevista.com/api/bootstrap/css/docs.css">
-	<link rel="stylesheet" href="http://www.projectrevista.com/api/bootstrap/css/prettify.css">
+	<link rel="stylesheet" href="api/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="api/bootstrap/css/bootstrap-responsive.css">
+	<link rel="stylesheet" href="api/bootstrap/css/docs.css">
+	<link rel="stylesheet" href="api/bootstrap/css/prettify.css">
+	<link rel="stylesheet" href="api/animate/css/animate.min.css">
+	<link rel="stylesheet" href="api/animate/css/style.css">
 
 
 
@@ -130,19 +131,83 @@ JQUERY
 
 
 
+<!-- javascript -->	
+		<script type="text/javascript">
+
+  function testAnim(x) {
+  	
+  	var none = "";
+  	var block = "";
+  	if ( $('#mktpMenu').is(':visible') ) {
+  	
+  		none = '#mktpMenu';
+  		block = '#mktpLogo';
+  	} else {
+  	
+  		none = '#mktpLogo';
+  		block = '#mktpMenu';
+  	}
+  	
+    /*$('#mktpLogo').removeClass().addClass(x + ' animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+      
+      $(this).removeClass();
+      if ( x == "fadeOutUp") {
+      
+      	$(this).hide();
+      }    
+    });
+    
+	$('#mktpMenu').show();
+	$('#mktpMenu').removeClass().addClass("fadeInDown" + ' animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+	  
+	  $(this).removeClass();
+	});
+  };*/
+
+    $(none).removeClass().addClass(x + ' animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+      
+      $(this).removeClass();
+      if ( x == "fadeOutUp") {
+      
+      	$(this).hide();
+	$(block).show();
+	$(block).removeClass().addClass("fadeInDown" + ' animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+	  
+	  $(this).removeClass();
+	});
+
+      }    
+    });
+    
+  };
+  
+			$( document ).ready(function() { 
+			
+				$('.js--triggerAnimation').click(function(e){
+				  e.preventDefault();
+				  var anim = "fadeOutUp"; //$('.js--animations').val();
+				  testAnim(anim);
+				  //alert("listo para animar");
+				});
+				$('#mktpMenu').hide();
+			});
+		</script>
+
+
+
 
 
 <!-- 
 MENU
 -->	
 <?php include('template/menu.html'); ?>
-    
-    
-    
-    
-    
-    
 
+
+
+
+
+
+	
 <!-- 
 CAROUSEL
 -->	    
@@ -174,10 +239,42 @@ CAROUSEL
 
 
 
+<!-- 
+MAIN TITLE
+-->	
+    <section id="cover" class="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+					
+					
+					
+<span id="mktpLogo" style="display: block;" class=""><h1 class="site__title mega">Este es el logo</h1></span>
+<span id="mktpMenu" style="display: block;" class=""><h1 class="site__title mega">Este es el menu</h1></span>
+<button class="butt js--triggerAnimation">Animar Animate</button>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
 
 <!-- 
 ABOUT
 -->	
+
+<?php
+
+	foreach( $posts as $post) {
+	
+		echo $post->post_content . "tu<br/>";
+	}
+?>
     <section id="about" class="contento">
         <div class="container">
             <div class="row-fluid">
@@ -193,11 +290,11 @@ ABOUT
 
 
 
-
 <!-- 
 FOOTER
 -->	
 <?php include('template/footer.html'); ?>
+
 
 
 
