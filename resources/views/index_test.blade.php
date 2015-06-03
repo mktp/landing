@@ -16,10 +16,10 @@ META
 <!-- 
 SEO
 -->	
-	<title>Marketing Publico | De la idea a la acción</title>    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>Marketing Publico | De la idea a la acción</title>    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta http-equiv="content-language" content="es" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta name="description" content="Somos una agencia con una fuerte orientación de ejecución al Marketing de contenidos." />
+    <meta name="description" content="Somos una agencia con una fuerte orientación de ejecución al Marketing de contenidos." />
 	<meta name="keywords" content="marketing,publico,mktp,estrategia,campañas,publicitarias,diseño,branding,digital,btl" />
 
 <!--    
@@ -223,7 +223,7 @@ CAROUSEL
         <div class="carousel-inner">
             <div class="active item" style="background-image:url('http://tour-pragenses.com/userfiles/Old_Town_Square_and_Tyn_Church_Prague_Czech_Republic.jpg'); background-repeat: no-repeat; background-size: cover;">
                 <div class="carousel-caption" >
-                  <h1>“De la idea a la acción”.</h1><br/>
+                  <h1>“De la idea a la acción”.</h1><br/>
                   <p></p>
                 </div>
             </div>
@@ -280,7 +280,7 @@ ABOUT
             <div class="row-fluid">
                 <div class="span12 texto">
                 	<span style="font-family: 'Questrial', sans-serif, bold;">PERFIL</span>
-					<h1 style="">Marketing Publico, esta ensayando su pagina de prueba de gianpiero a produccion y ahora hacia gianpiero</h1>
+					<h1 style="">Marketing Publico, esta ensayando su pagina de prueba de gianpiero a produccion y ahora hacia gianpiero y compañia</h1>
                 </div>
             </div>
         </div>
