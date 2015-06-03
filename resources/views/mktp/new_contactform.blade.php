@@ -2,6 +2,30 @@
 
 @section('content')
 
+<script type="text/javascript">
+
+	function validateEmail(email) {
+			var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+	
+			if (reg.test(email) == false) 
+			{
+				alert("email no valido");
+				return false;
+			}
+	
+			return true;}
+
+	function validateRepeat(email) {
+	
+			if ( email != document.getElementById('email').value) 
+			{
+				alert("los dos email no son iguales");
+				return false;
+			}
+			return true;}
+
+</script>
+
 <div class="container">
     <div class="row">
         <div class="col-md-6">
@@ -17,15 +41,9 @@
 							  'class'=>'form-control', 
 							  'placeholder'=>'Escriba el nombre de cliente')) !!}
 					{!! Form::label('Email') !!}
-					{!! Form::text('email', null, 
-						array('required', 
-							  'class'=>'form-control', 
-							  'placeholder'=>'Escriba su email')) !!}
+					<br/><input type="text" id='email' name='email' onblur="validateEmail(this.value)" placeholder='Escriba su email' required/><br/>
 					{!! Form::label('Repetir email') !!}
-					{!! Form::text('repeat', null, 
-						array('required', 
-							  'class'=>'form-control', 
-							  'placeholder'=>'Escriba su email otra vez')) !!}
+					<br/><input type="text" id='email' name='email' onblur="validateRepeat(this.value)" onpaste="return false;" placeholder='Escriba su email otra vez' required/><br/>
 					{!! Form::label('Ciudad') !!}
 					{!! Form::text('city', null, 
 						array('required', 
@@ -42,7 +60,7 @@
 							  'class'=>'form-control', 
 							  'placeholder'=>'Escriba el asunto')) !!}
 					{!! Form::label('Mensaje') !!}
-					{!! Form::text('text', null, 
+					{!! Form::textarea('text', null, 
 						array('required', 
 							  'class'=>'form-control', 
 							  'placeholder'=>'Escriba el mensaje')) !!}
